@@ -10,4 +10,10 @@ public class Member<T> {
         age = memberAge;
         gender = memberGender;
     }
+
+    void dance() {
+        if (gender) {
+            System.out.println("Dancing only woman");
+        }
+    }
 }
