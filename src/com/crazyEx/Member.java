@@ -14,4 +14,8 @@ public class Member<T> {
     void dance() {
         System.out.println(name + " is dancing");
     }
+
+    void someFeature() {
+
+    }
 }
