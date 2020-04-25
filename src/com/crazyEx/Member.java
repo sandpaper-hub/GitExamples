@@ -12,8 +12,6 @@ public class Member<T> {
     }
 
     void dance() {
-        if (gender) {
-            System.out.println("Dancing only woman");
-        }
+        System.out.println(name + " is dancing");
     }
 }
