@@ -1,0 +1,91 @@
+
+# Создано https://www.gitignore.io/api/intellij+all
+# Изменить на https://www.gitignore.io/?templates=intellij+all
+
+### Интеллиг + все ###
+# Охватывает интегрированные среды разработки JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio и WebStorm
+# Ссылка: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Пользовательские вещи
+.idea / ** / workspace.xml
+.idea / ** / tasks.xml
+.idea / ** / usage.statistics.xml
+.idea / ** / словари
+.idea / ** / полки
+
+# Сгенерированные файлы
+.idea / ** / contentModel.xml
+
+# Чувствительные или высокоточные файлы
+.idea / ** / DataSources /
+.idea / ** / dataSources.ids
+.idea / ** / dataSources.local.xml
+.idea / ** / sqlDataSources.xml
+.idea / ** / dynamic.xml
+.idea / ** / uiDesigner.xml
+.idea / ** / dbnavigator.xml
+
+# Gradle
+.idea / ** / gradle.xml
+.idea / ** / библиотеки
+
+# Gradle и Maven с автоимпортом
+# При использовании Gradle или Maven с автоимпортом вы должны исключить файлы модулей,
+# так как они будут воссозданы и могут вызвать отток. Раскомментируйте, если используете
+# авто-импорт.
+# .idea / modules.xml
+# .idea / *. iml
+# .idea / modules
+# * .iml
+# * .ipr
+
+# CMake
+CMake-сборка - * /
+
+# Mongo Explorer плагин
+.idea / ** / mongoSettings.xml
+
+# Файловый формат проекта
+* .iws
+
+# IntelliJ
+вне/
+
+# mpeltonen / sbt-idea плагин
+.idea_modules /
+
+# JIRA плагин
+Atlassian-ида-plugin.xml
+
+# Cursive Clojure плагин
+.idea / replstate.xml
+
+# Crashlytics плагин (для Android Studio и IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Редактор Rest Client
+.idea / httpRequests
+
+# Android studio 3.1+ сериализованный кеш файл
+.idea / кэша / build_file_checksums.ser
+
+### Intellij + все патч ###
+# Игнорирует всю папку .idea и все файлы .iml
+# См. Https://github.com/joeblau/gitignore.io/issues/186 и https://github.com/joeblau/gitignore.io/issues/360
+
+.idea /
+
+# Причина: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
+
+* .iml
+modules.xml
+.idea / misc.xml
+* .ipr
+
+# Sonarlint плагин
+.idea / sonarlint
+
+# Конец https://www.gitignore.io/api/intellij+all
