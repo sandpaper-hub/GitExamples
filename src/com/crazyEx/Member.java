@@ -10,4 +10,8 @@ public class Member<T> {
         age = memberAge;
         gender = memberGender;
     }
+
+    void dance() {
+        System.out.println(name + " is dancing");
+    }
 }
